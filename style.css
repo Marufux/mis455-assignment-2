@@ -4,6 +4,7 @@ body {
   font-family: "DM Serif Display", serif;
   font-family: "Poppins", sans-serif;
   margin: auto;
+  background-color: #f3e9d2;
 }
 
 .navbar {
@@ -52,7 +53,116 @@ body {
   background-color: rgb(255, 0, 234);
   border: none;
   color: white;
-  transform: scale(
-    1.1
-  ); /* Adjust the scaling factor to make the button appear larger on hover */
+  transform: scale(1.1);
 }
+
+.banner img {
+  width: 100%;
+}
+
+/* scholarship  */
+
+.scholarship h1 {
+  text-align: center;
+  margin-block-end: 2px;
+  margin-block-start: 2px;
+}
+
+#unlock {
+  color: orangered;
+  font-size: 30px;
+}
+
+#pink {
+  color: red;
+  font-weight: 900;
+  font-size: 40px;
+}
+#ed {
+  font-size: 35px;
+  color: rgb(117, 8, 44);
+}
+
+.requirements {
+  margin-top: 15px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.require-box {
+  --border-size: 3px;
+  --border-angle: 0turn;
+  width: 55%;
+  height: 350px;
+  border-radius: 15px;
+  padding: 10px;
+  background: linear-gradient(
+    to right,
+    rgba(241, 241, 112, 0.281),
+    #ff9864,
+    #ff7a55
+  );
+  color: black;
+  /* border: 3px solid #f59b6e; */
+  transition: transform 0.3s;
+  box-shadow: 10px 10px 20px 5px rgba(85, 83, 83, 0.342); /* Adjust the shadow properties */
+}
+
+.require-box:hover {
+  transform: scale(1.1);
+}
+
+.property {
+  --border-angle: 0turn;
+}
+
+.require-box li {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.require-box h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.require-box small {
+  display: block;
+  text-align: center;
+}
+.require-box h2 small {
+  text-align: center;
+}
+/* scholarship  */
+
+/* scholarship calculator   */
+.scholarship-calculator h1 {
+  font-size: 30px;
+  text-align: center;
+}
+.orange {
+  color: #ff7a55;
+  font-size: 40px;
+}
+
+.discount-calculator {
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  padding-left: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 3px solid #ffd90000;
+  border-radius: 20px;
+  width: 20%;
+  margin-bottom: 50px;
+  background-color: #ffd90041;
+}
+
+/* scholarship calculator   */

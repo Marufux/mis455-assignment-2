@@ -32,6 +32,90 @@
         </div>
       </div>
     </header>
-    <img src="images/banner/home-banner.png" width="100%" alt="" />
+    <main>
+      <div class="banner">
+        <img src="images/banner/home-banner.png" alt="" />
+      </div>
+      <!-- scholarship //////  -->
+      <section class="scholarship">
+        <h1>
+          <span id="unlock"> Unlock Your Potential</span> <br />
+          Get Up To <span id="pink">100%</span> Off in
+          <span id="ed">Ed-Data Academy</span> Courses!
+        </h1>
+        <div class="requirements">
+          <img src="images/vector/person-1.png" alt="" />
+          <div class="require-box">
+            <h2>Get scholarship eligibility as per the following benchmarks</h2>
+            <ol>
+              <li>
+                CGPA &gt;= 3.00, at least 1 completed project: 10% discount
+              </li>
+              <li>
+                CGPA &gt;= 3.20, at least 2 completed projects: 15% discount
+              </li>
+              <li>
+                CGPA &gt;= 3.40, at least 3 completed projects: 20% discount
+              </li>
+              <li>
+                CGPA &gt;= 3.60, at least 4 completed projects: 30% discount
+              </li>
+              <li>
+                CGPA &gt;= 3.80, at least 5 completed projects: 40% discount
+              </li>
+              <li>
+                CGPA &gt;= 3.90, at least 6 completed projects: 50% discount
+              </li>
+              <li>CGPA = 4.00, at least 7 completed projects: 100% discount</li>
+            </ol>
+
+            <small>
+              NB: Your provided information will undergo verification before the
+              scholarship is approved.
+            </small>
+          </div>
+        </div>
+      </section>
+      <!-- scholarship calculator  -->
+      <section class="scholarship-calculator">
+        <h1>
+          Calculate your eligibility <span class="orange">score</span> for
+          <br />
+          <span class="orange">scholarship</span> opportunity on every course
+        </h1>
+        <div class="discount-calculator">
+          
+           
+          <div class="form-container">
+            Your Name:<br />
+            <input type="text" id="name" name="name" required /><br /><br />
+
+            CGPA:<br />
+            <input
+              type="number"
+              id="cgpa"
+
+              step="0.01"
+
+            /><br /><br />
+
+            Number of Projects:<br />
+            <input
+              type="number"
+              id="projects"
+            /><br /><br />
+            <button onclick="calculateDiscount()">Calculate Discount</button>
+          </div>
+        </div>
+        <p id="discount"></p>
+  
+  
+          
+      <!-- scholarship calculator  -->
+    </main>
+    <!-- js script  -->
+    <script src="script.js"></script>
+    <!-- js script  -->
   </body>
+  
 </html>
