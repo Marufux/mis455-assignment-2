@@ -12,7 +12,7 @@ body {
   justify-content: space-evenly;
   background: linear-gradient(to right, #ffd700, #ffff00e1);
   align-items: center;
-  height: 120px;
+  height: 75px;
 }
 
 .menu a {
@@ -33,8 +33,8 @@ body {
 }
 
 .logo {
-  height: 180px;
-  width: 180px;
+  height: 170px;
+  width: 170px;
   /* margin: 5px 20px; */
 }
 
@@ -146,7 +146,7 @@ body {
 }
 
 .scholarship-calculator {
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 
 .orange {
@@ -169,8 +169,34 @@ body {
   background-color: #ffd90041;
 }
 
+#name {
+  width: 155px;
+  height: 1px;
+}
+
+/* .form-container h1 {
+  width: 70%;
+} */
+
 #discount {
   text-align: center;
+}
+
+.choose {
+  background-color: #ffdac7;
+  display: flex;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.choose img {
+  padding-left: 30px;
+}
+
+.choose p {
+  text-align: justify;
+  padding: 30px;
 }
 
 footer {
@@ -180,15 +206,12 @@ footer {
   padding: 20px;
   left: 0;
   bottom: 0;
-  width: 100%;
+  width: 1308px;
 }
 /* scholarship calculator   */
 
 /* ///////////////courses page starts //////// */
 /* ///////////////////////////////////////////////// */
-
-/* ///////////////////////////////////////////////// */
-/* ///////////////courses page starts //////// */
 
 #hard-pink {
   color: rgb(255, 32, 69);
@@ -260,3 +283,84 @@ footer {
 .purchase-button:hover {
   background-color: #45a049;
 }
+
+/* * ///////////////////////////////////////////////// */
+/* ///////////////courses page endss //////// */
+
+/* blogs part starts  */
+.blogs-part {
+  margin: auto;
+  background-color: #f3e9d2;
+  font-family: "DM Serif Display", serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.blog {
+  background-color: rgba(241, 219, 213, 0.753);
+  margin-bottom: 40px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.blog h3 {
+  text-align: center;
+  font-size: 20px;
+  color: purple;
+}
+
+#blog-img {
+  height: 300px;
+  width: 500px;
+}
+
+.blog-content {
+  display: flex;
+  align-items: center;
+}
+
+.blog-content img {
+  padding-left: 20px;
+}
+.blog-content p {
+  padding: 20px;
+  text-align: justify;
+}
+
+/* blogs part ends  */
+
+/* contact us  */
+.contact-form {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.response {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.contact-name input {
+  width: 100%;
+}
+
+/* contact us  */

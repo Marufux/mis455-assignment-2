@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact us</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="images/logo/ed-data-logo.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div>
+          <a href="index.html"
+            ><img src="images/logo/logo-1.png" alt="Logo" class="logo"
+          /></a>
+        </div>
+        <div class="menu">
+          <a href="index.html">Home</a>
+          <a href="courses.html">Courses</a>
+          <a href="blogs.html">Blogs</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="menu right-navbar">
+          <a href="#">Login</a>
+          <a href="#">Sign Up</a>
+        </div>
+      </div>
+    </header>
+    <div class="contact-form">
+      <form class="contact-name" onsubmit="submitForm(event)">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name-con" name="name" required /><br /><br />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+      <div class="response" id="response"></div>
+    </div>
+    <script src="contact.js"></script>
+  </body>
+</html>
